@@ -1,0 +1,29 @@
+:root {
+  --color: #fff;
+  --shadow: #000;
+} 
+
+.dato-curioso {
+  background-color: var(--shadow);
+  font-style: italic;
+  margin-bottom: 2em;
+  font-size: 20px;
+  color: var(--color);
+  display: inline-block;
+}
+
+.dato {
+  background-color: var(--shadow);
+  font-size: 20px;
+  color: var(--color);
+  display: inline-block;
+}
+
+.logo-con {
+  background-image: url("../img/bosque.jpg");
+  background-size: 100% 100%;
+  padding-bottom: 2em;
+}
+
+
+

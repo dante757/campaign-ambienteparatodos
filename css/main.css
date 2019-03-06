@@ -1,0 +1,80 @@
+:root {
+  --color-link: #ffffff;
+  --color-link_bg: steelblue;
+  --color-link_bg_dark: rgb(31, 92, 141);
+}
+
+* {
+  margin: 1%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: arial;
+  font-size: 18px;
+  background-color: lightgreen;
+} 
+
+main {
+  width: 50%;
+}
+
+li {
+  list-style: none;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+h2,h3 {
+  color: #ffffff;
+}
+
+li, p {
+  color: brown;
+  
+}
+
+.logo {
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu a:visited, .menu a:link {
+  color: var(--color-link);
+  background-color: var(--color-link_bg);
+  margin: 1%;
+}
+
+.menu--link {
+  display: inline-block;
+  height: 2%;
+  padding: 2%;
+  border-radius: 50px;
+  
+}
+
+.menu--link:hover {
+  background-color: var(--color-link_bg_dark);
+}
+
+li::before {
+  --size: 18px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 16%;
+  top: 0;
+  width: var(--size);
+  height: var(--size);
+  background-image: url("../img/planta.png");
+  background-size: 100% 100%;
+}

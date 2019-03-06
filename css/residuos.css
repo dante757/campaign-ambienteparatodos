@@ -1,0 +1,11 @@
+.list-verga li::before {
+  left: 3%;
+}
+
+.list-corta li::before {
+  left: 25%;
+}
+
+h2, h3 {
+  color: #fff;
+}
